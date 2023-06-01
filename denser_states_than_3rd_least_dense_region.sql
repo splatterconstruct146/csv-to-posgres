@@ -1,3 +1,4 @@
+-- a sql query for finding the states which have populations >= than the 3rd densest region in the US
 WITH cte1 AS (
 	SELECT 
 		region,
